@@ -1,7 +1,7 @@
 #' Convert numbers into formatted scientific notation expressions
 #'
 #' This function converts a vector of numbers to formatted scientific notation
-#' expressions. It is called by \code{\link{label_scientific}()} to convert the
+#' expressions. It is called by \code{\link{label_sci}()} to convert the
 #' \code{\link[ggplot2]{ggplot2}} scale function labels to scientific format.
 #'
 #' @param x Numeric vector, gives numbers to convert to scientific notation

@@ -32,13 +32,13 @@
 #'     scale_x_continuous(labels = label_scientific(max_cut = 10))
 #' }
 #'
-label_scientific <- function(digits = 2,
-                             max_cut = 10^5,
-                             min_cut = 10^-3,
-                             common = FALSE,
-                             factor = NULL,
-                             trailing = TRUE,
-                             units = NULL) {
+label_sci <- function(digits = 2,
+                      max_cut = 10^5,
+                      min_cut = 10^-3,
+                      common = FALSE,
+                      factor = NULL,
+                      trailing = TRUE,
+                      units = NULL) {
 
   # Defines a new function that takes x as input, but x was not input into the
   # function or defined inside the function. When this occurs, R looks one level

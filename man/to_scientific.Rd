@@ -41,7 +41,7 @@ An expression containing the input numbers in scientific format
 }
 \description{
 This function converts a vector of numbers to formatted scientific notation
-expressions. It is called by \code{\link{label_scientific}()} to convert the
+expressions. It is called by \code{\link{label_sci}()} to convert the
 \code{\link[ggplot2]{ggplot2}} scale function labels to scientific format.
 }
 \examples{

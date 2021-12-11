@@ -4,7 +4,10 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Christy", "Ray", , "cpickering@jhmi.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7552-9759"))
-Description: What the package does (one paragraph).
+Description: This package includes functions to convert numbers to customizable 
+    scientific format for ggplot axis labels, annotations, and legend labels. It
+    works with the labels argument of the ggplot scale functions to integrate 
+    easily with existing plots.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
