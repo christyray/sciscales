@@ -62,7 +62,7 @@ df <- data.frame(x = seq(1000, 5000, by = 1000), y = 1:5)
 if (requireNamespace("ggplot2", quietly = TRUE)) {
 p <- ggplot(df, aes(x, y)) +
     geom_point() +
-    scale_x_continuous(labels = label_scientific(max_cut = 10))
+    scale_x_continuous(labels = label_sci(max_cut = 10))
 }
 
 }

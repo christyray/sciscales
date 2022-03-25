@@ -133,7 +133,7 @@ to_scientific <- function(x,
 
   # Replace scientific format zeros with plain zeros
   pattern <- paste(rep(0, digits - 1), sep = "", collapse = "")
-  pattern <- paste0("^0.", pattern, "e\\+[0-9]*$") # Makes pattern to find 0
+  pattern <- paste0("^0.?", pattern, "e\\+[0-9]*$") # Makes pattern to find 0
   x <- gsub(pattern = pattern, replacement = "0", x)
 
   # Convert scientific notation into a math expression
